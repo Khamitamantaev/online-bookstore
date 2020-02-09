@@ -43,7 +43,7 @@ public class Book {
 	private boolean active;
 	
 	@Column(name="units_in_stock")
-	private Date unitsInStock;
+	private int unitsInStock;
 	
 	@Column(name="date_created")
 	private Date createdOn;
